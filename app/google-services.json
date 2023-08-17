@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "117449447331",
+    "project_id": "andy-master",
+    "storage_bucket": "andy-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117449447331:android:4b7480572556c3ac43ec16",
+        "android_client_info": {
+          "package_name": "com.example.andymaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117449447331-uqac98lm8d6bjirpl7oash5opbvbb0qi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH6og2f8cgufaT7_8SX4hAs62qsvHL800"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117449447331-uqac98lm8d6bjirpl7oash5opbvbb0qi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

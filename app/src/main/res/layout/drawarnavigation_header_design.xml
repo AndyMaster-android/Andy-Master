@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#C4C4C4"
+    android:layout_height="200dp">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/header_text"
+    android:layout_alignParentTop="true"
+    android:textSize="20sp"
+    android:layout_centerHorizontal="true"
+    android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ghulamshabbir@gmail.com"
+        android:layout_alignParentBottom="true"
+        android:textSize="17sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="280dp"
+        android:layout_centerInParent="true"
+        >
+        <ImageView
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/download__2_"
+            android:scaleType="centerCrop"/>
+
+
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ghulhma_shabbir"
+        android:layout_below="@+id/card"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+</RelativeLayout>

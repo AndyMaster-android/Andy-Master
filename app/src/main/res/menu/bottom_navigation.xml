@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/bottom_navi"
+        >
+    <item
+
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/home" />
+
+
+
+    <item android:title="@string/Community"
+        android:icon="@drawable/comunity"
+        android:id="@+id/comunity"
+        app:showAsAction="withText"
+        />
+        <item android:title="Search"
+        android:icon="@drawable/baseline_search_24"
+        android:id="@+id/search"
+        app:showAsAction="withText"
+        />
+        <item android:id="@+id/massage"
+            android:icon="@drawable/leaderboard"
+            android:title="Massage"
+            app:showAsAction="withText"
+            />
+    <item android:title="@string/profile"
+        android:icon="@drawable/profile_login_screen"
+        android:id="@+id/user_Profile"
+        app:showAsAction="withText"
+        />
+
+</group>
+</menu>

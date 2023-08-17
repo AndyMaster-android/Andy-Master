@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lavender">#8692f7</color>
+    <color name="black_overlay">#66000000</color>
+
+
+    <color name="colorCorrect">#00FF00</color> <!-- Green color for correct answer -->
+    <color name="colorWrong">#FF0000</color>
+    <color name="monokia_pro_white" >#797979</color>
+    <color name="monokia_pro_pink">#b05279</color>
+    <color name="monokia_pro_sky">#005AFF</color>
+    <color name="monokia_pro_grey">#808080</color>
+    <color name="monokia_pro_purple">#c71ca5</color>
+    <color name="monokia_pro_orange">#FD971F</color>
+    <color name="monokia_pro_green">#ADDA78</color>
+    <color name="monokia_pro_black">#272822</color>
+    <color name="gold">#FFD700</color> <!-- Red color for wrong answer -->
+    <color name="colorPrimary">#455cde</color>
+    <color name="colorPrimaryDark">#000d3d</color>
+    <color name="colorPurple">#673AB7</color>
+    <color name="colorBlue">#3F51B5</color>
+    <color name="bestcolorBlue">#124261</color>
+
+    <color name="orange">#FF9800</color>
+
+    <color name="darkOrange">#FF5722</color>
+    <color name="shadow_color">#3C3C3C</color>
+    <color name="color_white">#FFFFFF</color>
+
+    <color name="light_grey">#E8E8E8</color>
+    <color name="colorAccent">#c2bdbf</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <style name="CircularDeterminateProgressBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/progress_style</item>
+    </style>
+</resources>

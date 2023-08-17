@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/bottom_navi"
+        >
+        <item android:id="@+id/Android_Studio"
+            android:title="@string/android_studio"
+            app:showAsAction="withText"
+            android:icon="@drawable/comunity"
+            />
+        <item android:id="@+id/Download"
+            android:icon="@drawable/baseline_cloud_download_24"
+            android:title="@string/download"
+            app:showAsAction="withText"
+            />
+
+        <item android:title="@string/get_app"
+            android:icon="@drawable/baseline_get_app_24"
+            android:id="@+id/Get_App"
+            app:showAsAction="withText"
+            />
+
+    </group>
+</menu>

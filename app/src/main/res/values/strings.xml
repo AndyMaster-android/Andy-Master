@@ -1,0 +1,340 @@
+<resources>
+    <string name="app_name">Andy Master</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="learners">Learners</string>
+    <string name="Developer_name">Powered By Shabbir</string>
+    <string name="next">next</string>
+    <string name="Heading_1"> GLearner Hub</string>
+    <string name="Heading_2"> GLearner Hub</string>
+    <string name="Heading_3"> GLearner Hub</string>
+    <string name="description_1">Producer Ghulam Shabbir\n  World best platform  for learning! \n Online Study is best Platform for Everyone</string>
+    <string name="description_2"> Online is best way of learning in this world in these days \n  World best platform  for learning! \n Online Study is best Platform for Everyone</string>
+    <string name="description_3">  World best platform  for learning! \n Online Study is best Platform for Everyone</string>
+    <string name="getstart">Getstart</string>
+    <string name="todo">TODO</string>
+    <string name="rocmanded">Rocomanded by you </string>
+    <string name="top_coursess">Top Trending</string>
+    <string name="coureses_text">Artificial</string>
+    <string name="reading_books">Reading Books</string>
+    <string name="desciption">TODO</string>
+    <string name="computer_science">Computer science</string>
+    <string name="show_all">Show all</string>
+    <string name="explore_courses">Explore Courses</string>
+    <string name="books_collection">Books colletion</string>
+    <string name="programming_language">Programming language</string>
+    <string name="rocmananded_by">Rocmananded by</string>
+    <string name="home">Home</string>
+    <string name="LeaderBoard">LeaderBoard</string>
+    <string name="progress">Purchesed</string>
+    <string name="Communityplayground">Community</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="profile">Profile</string>
+    <string name="pro_subcription">Pro subcription</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="progresss">Progress</string>
+    <string name="header_text">Go To Explore the world</string>
+    <string name="ghulhma_shabbir">Ghulhma shabbir</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="better_way_to_learning">Better Way To Learning \n        is best platform</string>
+    <string name="welcome">Welcome back \n Sign in to continue!</string>
+    <string name="email_gmail_com">Enter Email</string>
+    <string name="email_gmail">Enter Email :</string>
+    <string name="enter_em">shabbir@Email.com</string>
+    <string name="enter_passward">Enter password</string>
+    <string name="or">or</string>
+    <string name="remembered_me">Remember me</string>
+    <string name="forgot_password">Forgot password ?</string>
+    <string name="signup_intro">Welcome! \n Sign up to continue!</string>
+    <string name="signup_btn">Sign up with email</string>
+    <string name="instruction">By signing up you are agreed with \n our friendly terms and condition.</string>
+    <string name="already_account">Already have an account?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="enter_your_details">Enter your details</string>
+    <string name="username">Enter Username</string>
+    <string name="enter_password">Enter password</string>
+    <string name="enter__password">password</string>
+    <string name="_password">password</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="enter_you_email">Enter Your Registered Email ID</string>
+    <string name="enter_you_phone_no">Enter Your Registered Phone no</string>
+    <string name="continue_btn">Sent email</string>
+    <string name="check_email">Check Your email</string>
+    <string name="sent_mail">We\'ve Sent a Password  Recover \n instruction to your email</string>
+    <string name="open_email_app">Open email app</string>
+    <string name="will_do_it_later">Will do it later</string>
+    <string name="rest_your_password">Rest Your Password</string>
+    <string name="complete">Complete</string>
+    <string name="rest">Rest</string>
+    <string name="_0000">0000</string>
+    <string name="recive">Don\'t receive an email?</string>
+    <string name="sent_again">Send again</string>
+    <string name="phone_no">Enter phone no</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgat_password">Forgat password</string>
+    <string name="followers">Followers</string>
+    <string name="Profile_name">shabbir</string>
+    <string name="profile_Bio">I\'m Professional Android Developer</string>
+    <string name="following">Following</string>
+    <string name="profile_full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="update_btn">UPDATE</string>
+    <string name="log_out">Log out</string>
+    <string name="name">name</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="logout">LOGOUT</string>
+    <string name="bio_description">Bio Description</string>
+    <string name="Community">Community</string>
+    <string name="extended_fab_label" />
+    <string name="extended_fab_content_desc" />
+    <string name="android_studio">Android Studio</string>
+    <string name="download">Download</string>
+    <string name="get_app">Get App</string>
+    <string name="android_development">Android Development</string>
+    <string name="download_jdk_and_android_studio_from_official_site">Download JDK and Android Studio From Official Site</string>
+    <string name="_1_download_jdk_and_android_studio">1 ) Download JDK and Android Studio</string>
+    <string name="android_requirment">Android Studio Requirements</string>
+    <string name="android_requirments">Android Studio Requirements</string>
+    <string name="android_studio_setup">Android Studio Setup</string>
+    <string name="requirments_windows">· 64-bit Microsoft Windows 8/10 \n   · Recommended 8GB RAM or more \n              · 1280 x 800 minimum screen Resolution  </string>
+    <string name="android_developer_roadmap">Android Developer Roadmap</string>
+    <string name="programming_languages">1) Java Programming language. \n2) Kotlin Programming language \n3) XML (Extensible Markup Language \n Learn Java or Kotlin Programming language and Knowledge of XML for Layouts</string>
+    <string name="android_studio_road">1) AndroidManifest.xml file\n
+2) Java file\n
+3) Drawable file\n
+4) Layout file\n
+5) mipmap file\n
+6) colors.xml file\n
+7) strings.xml file\n
+8) styles.xml file\n
+9) build.gradle(Module: app) file\n</string>
+    <string name="android_components">1) Activity\n2) Services\n3) Content Provider \n4) Broadcast Receiver</string>
+    <string name="simple_ui_design">After you got an idea about the different components of Android then start exploring some simple UI design which is given below.\n
+\n
+Explore different layouts:\n
+1) Frame\n
+2) Linear\n
+3) Relative\n
+4) Constraint\n\n
+        View Elements:\n\n
+1) TextView\n
+2) EditText\n
+3) Buttons\n
+4) ImageView\n
+
+    </string>
+    <string name="complex_ui_design">Once you have a command on simple UI design then solely move to the complex UI design part such as:\n\n
+
+1) ListView\n
+2) RecycleVIew\n
+3) Fragments\n
+4) Dialogs\n
+5) Toast\n
+6) Bottom Sheets\n
+7) Navigation Drawer\n
+8) Tabs\n
+9) Material Design\n
+10) Some inserting Animations</string>
+    <string name="storage">In Android, there are three types of the storage system:\n\n
+
+1) Shared Preferences\n
+2) File System\n
+3) Database\n
+4) RoomDB</string>
+    <string name="build">1) Gradle\n
+2) Debug / Release Configuration</string>
+    <string name="threading">1) Threads\n
+2) Looper</string>
+    <string name="debugging">One of the most important skills of a developer is debugging skills. So the developer must learn these things:\n\n
+
+1) Exceptions\n
+2) Error Handling\n
+3) Logging\n
+4) Memory Profiling</string>
+    <string name="memory_leaks">1) Cause of memory leaks\n
+2) Detecting and fixing memory leaks
+\n
+        3) Context</string>
+    <string name="third_party_libraries"> Image Loading Libraries\n\n
+1) Glide\n
+2) Picasso\n
+3) Fresco\n
+4) COIL\n\n
+ Dependency Injection\n\n
+1) Dragger \n\n
+ Networking\n
+1) Retrofit
+</string>
+    <string name="android_jetpack">1) AppCompat library\n
+2) Architecture components\n
+3) Animation and transitions\n
+4) Android Ktx\n
+5) Navigation\n
+6) Paging\n
+7) Slices\n
+8) WorkManager</string>
+    <string name="_13_android_architecture">13) Android Architecture</string>
+    <string name="android_architecture">The three famous architecture in the Android world are:\n\n
+
+1) MVVM (Model–View–ViewModel)\n
+2) MVI (Model-View-Intent)\n
+3) MVP (Model View Presenter)</string>
+    <string name="firebase">1) FCM (Firebase Cloud Messaging)\n
+        2) RealTime Database\n
+3) Analytics\n
+4) Remote Config\n
+5) App Indexing</string>
+    <string name="app_release">1) Signed APK\n
+2) Play Store</string>
+    <string name="unit_testing">1) Local Unit Testing\n
+2) Instrumentation Testing</string>
+    <string name="security">1) Encrypt / Decrypt \n
+2) Proguard</string>
+    <string name="introduction_to_android">Introduction to Android</string>
+    <string name="introduction_to_native">Introduction to Native App Development</string>
+    <string name="introduction_to_Cross">Introduction to CrossPlatform</string>
+    <string name="android_operating"> ➤ Android is a Mobile Operating System based on a modified version of the Linux Kernel </string>
+    <string name="aosp"> ➤ It is free and open-source software. Its source code is known as Android Open Source Project (AOSP)</string>
+    <string name="andy_robin"> ➤ In October 2003 Andy Robin,Rich Miner, Nick Sears, founded Android and Began as a project of the American technology Company Android lnc. To develop an Operating System for Digital Cameras </string>
+    <string name="smartphone"> ➤ In 2004 the Project Changed to become an Operating System for Smartphones</string>
+    <string name="smartphone_2014"> ➤ In 2007, Google announce the development of Android OS</string>
+    <string name="smartphone_2005"> ➤ In 17th August 2005, Google Acquired Android. Since then it is in the subsidiary of Google</string>
+    <string name="smartphone_2008"> ➤ In 23 September 2008 HTC launched first Commercial Android device. HTC Dream also known as T-Mobile G1 with Android Version 1.6</string>
+    <string name="smartphone_currently"> ➤ Currently Android is Owned by Google and Kotlin is Officially Support by Google for Android Development </string>
+    <string name="MCQS"> ➤ Get Ready to Answer of Questions </string>
+    <string name="tap_to_continue">Tap To Continue</string>
+    <string name="topic_name">Topic Name</string>
+    <string name="quit_learning">Quit Learning ?</string>
+    <string name="oops_incorrect_answer">Oops! \n correct Answer</string>
+    <string name="platform_dis">We can Develop Android Application by using Both Native App Development or cross Platform while Both different features</string>
+    <string name="android_Studio">Android Studio is IDE which is used to Develop Android Application </string>
+
+    <string name="Native_app"> ➤ Native app development means building a mobile app Exclusively for a single platform </string>
+    <string name="Native_app1"> ➤ You can Development Native Android Apps either by using kotlin or java </string>
+    <string name="Native_app2"> ➤ The main purpose for creating Native apps is to ensure best performance for a specific operating system </string>
+    <string name="Native_app3"> ➤ Java and have kotlin have similar performance indications and are the best option for Android development </string>
+    <string name="Native_app4"> ➤ In Native App Development Kotlin is Preferred Language for Android App Development by Google </string>
+    <string name="Native_app5"> ➤ To use jetpack in Android Android Studio you have to use Kotlin . Kotlin is the future of Android App Development</string>
+    <string name="Native_app6"> ➤ But its better to have basic knowledge of Object Oriented Programming (OOP) in java Language </string>
+    <string name="Native_app7"> ➤ Native Apps Are 2 – 5 times faster then CrossPlatform </string>
+    <string name="Native_app8"> ➤ Computer Software that is Designed to in Different Platform </string>
+    <string name="Cross_app1"> ➤ Cross Platform are used to build application for Multiple Platform from Single Codebase</string>
+    <string name="Cross_app2"> ➤ Cross Platform helps in Faster Development and Application\s are Less Costly </string>
+    <string name="Cross_app3"> ➤ Most Popular Cross Platform are Flutter and ReactNative </string>
+    <string name="Cross_app4"> ➤ React Native is Development by Facebook Released in 26 March 2015</string>
+    <string name="Cross_app5"> ➤ Flutter is Development by Google and released in May 2017 </string>
+    <string name="Cross_app6"> ➤ Flutter is faster then React Native in Performance  </string>
+    <string name="Cross_app7"> ➤ In Flutter (Dart) is Used to Build Cross Platform Application </string>
+    <string name="Cross_app8"> ➤ In ReactNative(JavaScript) is Used to Build Application  </string>
+    <string name="Cross_app9"> ➤ If you Want to build cross platform apps then</string>
+    <string name="Cross_app10"> ➤ Remember Native Apps , React Native have Different Features and performance </string>
+    <string name="intro_overview">Introduction to Android Studio </string>
+    <string name="android_overview1"> ➤ Android Studio is the Official Integrated Development Environment (IDE) for Google/s Android operating system </string>
+    <string name="android_overview2"> ➤ Android Studio is built on jetBrains IntelliJ IDEA software and Designed Specifically for Android development  </string>
+    <string name="android_overview3"> ➤ It is Available for Download on Windows, macOS and Linux based Operating System or as a subscription-based service in 2020 </string>
+    <string name="android_overview4"> ➤ It is a Replacement for Eclipse Android Development Tools (E-ADT) as the Primary IDE for Native Android Application Development </string>
+    <string name="android_overview5"> ➤ Android Studio was announced on May 16, 2013 at the Google I/O conference </string>
+    <string name="android_overview6"> ➤ which was released in june 2014 and, starting from version 1.0 </string>
+    <string name="android_overview7"> ➤ On May 7, 2019, Kotlin replaced Java as google\s preferred . Java is still supported, as is C++</string>
+    <string name="android_overview8"> ➤ Gradle-based build support Android-specific refactoring and quick fixes \n Lint tools to catch performance, usability, version compatibility </string>
+    <string name="android_overview9"> ➤ Build in support for Google Cloud Platform, Enabling Integration with Firebase Cloud Message (Earlier) \'Google Clouded Message and Google App engine</string>
+    <string name="android_overview10"> ➤ Android virtual Device (Emulator ) to run and debug apps in the Android studio</string>
+    <string name="intro_content_provider">Introduction to Content Provider </string>
+    <string name="login_with_email">Login with Email</string>
+    <string name="phone_no_rest_text">provide your account\'s for which you want to rest your password</string>
+
+
+</resources>

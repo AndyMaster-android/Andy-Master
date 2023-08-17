@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AndyMaster"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".Fragment.CumunitySection.Activites.PostActivity"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".Register.varifiy_otp_forget_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Register.Rest_Password"
+            android:exported="false" />
+        <activity
+            android:name=".Register.forget_password_email"
+            android:exported="false" />
+        <activity
+            android:name=".Register.forgat_password_phonno"
+            android:exported="false" />
+        <activity
+            android:name=".Register.Login_custom_email_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Register.Custom_email_Singup_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Courses.Ab.Result_Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_AlertDialog.Alert_Dialog_Gloassary"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_AlertDialog.AlertDialog_source_code"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_AlertDialog.AlertDialog_output"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_DataPicker.DataPicker_Glossary"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_DataPicker.DataPicker_source_code"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_DataPicker.DataPicker_output"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_TimePicker.TimePicker_source_code"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_TimePicker.TimePicker_output"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_webView.WebView_Gloassary"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_webView.Webview_source_code"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_webView.WebView_output"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_Spinner.Spinner_Glossary"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_Spinner.Spinner_source_code"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_ProgressBar.ProgressBar_Gloassory"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_ProgressBar.Progress_source_code"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_ProgressBar.ProgressBar_output"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_Spinner.Spinner_output"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_SeekBar.SeekBar_Glossary"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_SeekBar.SeekBar_source_code"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_SeekBar.SeekBar_output"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_RatingBar.RatingBar_Source_code"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_RatingBar.RatingBar"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_Radio_btn.Radio_btn_Glossary"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_Radio_btn.Radio_btn_source_code"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_Radio_btn.Radio_btn"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_Toggale_btn.Toggale_btn_Glossary"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_Toggale_btn.Toggale_Btn_source_code"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_Toggale_btn.Toggle_btn"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_Switch.Glossary_Switch"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_Switch.Switch_source_code"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_Switch.Switch_btn_output"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_Check_Box.Glossary_Checkbox"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_Check_Box.checkbox_source_code"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_Check_Box.Check_Box"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_EDitText.Edit_Text_source_code"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_EDitText.Edittext_Glossary"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_EDitText.EditText"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_TextView.Gloassory_textView"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_TextView.TextView_source_code"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_TextView.Text_View"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_btn.Button_Glossary"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_btn.Button_source_code"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Tetorials.A_btn.Button_output"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Courses.Af.Database_mcqs"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Courses.Af.DataBase"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Courses.Af.Shared_preference_mcqs"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Courses.Af.Shared_preference"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Courses.Af.Shared_Storage_mcqs"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Courses.Af.Shared_storage"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Courses.Af.App_specific_storgage_mcqs"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Courses.Af.App_Specific_storage"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Courses.Af.Storage"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Courses.Ae.Broadcast_receiver_mcqs"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Courses.Ae.Broadcast_receiver"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Courses.Ae.services_mcqs"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Courses.Ae.content_provider_mcqs"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Courses.Ae.content_provider"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Courses.Ae.services_compnant"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Courses.Ae.components_acitivtes_mcqs"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Courses.Ae.components_Activities"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Courses.Ae.Component"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Courses.Ad.File_structure_mcqs"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Courses.Ad.File_Strucure"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Courses.Ad.Overview_mcqs"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Courses.Ad.Overview_android_studio"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Courses.Ad.Android_studio"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Courses.Ac.native_mcqs"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Courses.Ac.cross_app_quiz"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Courses.Ac.cross_App"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Courses.Ac.native_platform"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Courses.Ac.Platform_Android"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Courses.Ab.intro_Quiz"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Android_Courses.Ab.intro_Android"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Android_Courses.Ab.Road_Map"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Android_Courses.Ab.Get_Start_Ac"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Android_Courses.Andoid_Learning_Ac"
+            android:exported="false" />
+        <activity
+            android:name=".User_Dashboard"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".comman.onBoarding_screen"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".comman.SplashScreen"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

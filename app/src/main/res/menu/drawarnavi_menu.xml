@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item android:id="@+id/profile"
+        android:title="Logout"
+        android:icon="@drawable/profile_login_screen"/>
+
+    <item android:id="@+id/Pro"
+        android:title="@string/pro_subcription"
+        android:icon="@drawable/baseline_subscriptions_24"/>
+    <item android:id="@+id/progress"
+        android:title="@string/progresss"
+        android:icon="@drawable/baseline_trending_up_24"/>
+    <item android:id="@+id/rateing"
+        android:title="@string/rate_us"
+        android:icon="@drawable/baseline_star_rate_24"/>
+
+</group>
+</menu>
