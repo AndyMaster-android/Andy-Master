@@ -23,9 +23,7 @@ public class Home_Fragment extends Fragment {
 
     }
 
-    public Home_Fragment() {
-        // Required empty public constructor
-    }
+
 
     CardView Android_Card;
 

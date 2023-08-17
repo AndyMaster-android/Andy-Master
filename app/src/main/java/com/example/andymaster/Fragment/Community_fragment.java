@@ -65,8 +65,8 @@ public class Community_fragment extends Fragment {
         recyclerViewPosts.setAdapter(postAdapter);
 
         followingList = new ArrayList<>();
-
-
+        checkFollowingUsers();
+        readPosts();
 
         return view;
 

@@ -81,8 +81,7 @@ public class User_Dashboard extends AppCompatActivity {
                     case R.id.profile:
                         FirebaseAuth.getInstance().signOut();
                         drawerLayout.closeDrawers();
-
-                        return true;
+                        return false;
                     case R.id.Pro:
                         Toast.makeText(this, "You clicked on Pro Subcription", Toast.LENGTH_SHORT).show();
                         drawerLayout.closeDrawers();
