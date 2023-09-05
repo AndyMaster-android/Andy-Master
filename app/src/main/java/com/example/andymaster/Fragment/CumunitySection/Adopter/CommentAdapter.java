@@ -13,6 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.andymaster.Fragment.Home_Fragment;
 import com.example.andymaster.Modelclasses.Comment;
 import com.example.andymaster.Modelclasses.Users;
 import com.example.andymaster.R;
@@ -80,25 +81,24 @@ public class CommentAdapter extends RecyclerView.Adapter<CommentAdapter.ViewHold
 
             }
         });
-/*
+
         holder.comment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(mContext, MainActivity.class);
-                intent.putExtra("publisherId", comment.getPublisher());
-                mContext.startActivity(intent);
+             //   Intent intent = new Intent(mContext, Home_Fragment.class);
+               // intent.putExtra("publisherId", comment.getPublisher());
+               // mContext.startActivity(intent);
+                Toast.makeText(mContext, "You Clicked on Comments", Toast.LENGTH_SHORT).show();
             }
         });
 
         holder.imageProfile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(mContext, MainActivity.class);
-                intent.putExtra("publisherId", comment.getPublisher());
-                mContext.startActivity(intent);
+
             }
         });
-*/
+
         holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {

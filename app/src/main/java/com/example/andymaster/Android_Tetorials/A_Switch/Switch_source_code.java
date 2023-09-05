@@ -23,5 +23,6 @@ public class Switch_source_code extends AppCompatActivity {
         viewPager.setAdapter(Adopter);
         tabLayout.setupWithViewPager(viewPager);
 
+
     }
 }

@@ -47,5 +47,6 @@ public class SeekBar_output extends AppCompatActivity {
             }
         });
 
+
     }
 }

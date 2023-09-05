@@ -37,5 +37,6 @@ public class EditText extends AppCompatActivity {
         fa_source_btn.setOnClickListener(v -> startActivity(new Intent(EditText.this, Edit_Text_source_code.class)));
         fa_Gloassary_btn.setOnClickListener(v -> {startActivity(new Intent(EditText.this , Edittext_Glossary.class));});
 
+
     }
 }

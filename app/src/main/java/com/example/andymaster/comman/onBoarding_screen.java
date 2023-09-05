@@ -23,14 +23,13 @@ import com.example.andymaster.User_Dashboard;
 public class onBoarding_screen extends AppCompatActivity {
     int postion = 0;
     int currunt_position = 0;
-
-
     Animation Get_start_btn;
     AppCompatButton Skip_btn , get_start_btn ,Next_btn;
     View_pager_Adopter_class view_adopter;
     ViewPager viewPager;
     LinearLayout Dots;
     TextView[] dots;
+
 
 
     @Override
@@ -48,11 +47,10 @@ public class onBoarding_screen extends AppCompatActivity {
         Get_start_btn = AnimationUtils.loadAnimation(this,R.anim.bottom_animation);
         Next_btn =findViewById(R.id.next_btn);
 
-
         viewPager.setAdapter(view_adopter);
-
         add_dots(postion);
         viewPager.addOnPageChangeListener(listener);
+
 
     }
 

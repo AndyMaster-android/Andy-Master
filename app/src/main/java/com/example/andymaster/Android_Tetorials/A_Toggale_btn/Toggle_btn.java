@@ -34,5 +34,6 @@ public class Toggle_btn extends AppCompatActivity {
                 Toast.makeText(Toggle_btn.this, ""+ toggleButton.getText().toString(), Toast.LENGTH_SHORT).show();
             }
         });
+
     }
 }

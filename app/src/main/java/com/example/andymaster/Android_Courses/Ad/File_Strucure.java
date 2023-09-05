@@ -18,5 +18,6 @@ public class File_Strucure extends AppCompatActivity {
 
         textView =findViewById(R.id.QUIZ_btn);
         textView.setOnClickListener(v -> startActivity(new Intent(File_Strucure.this ,File_structure_mcqs.class)));
+
     }
 }

@@ -19,5 +19,6 @@ public class components_Activities extends AppCompatActivity {
         setContentView(R.layout.activity_components_activities);
         textView = findViewById(R.id.QUIZ_btn);
         textView.setOnClickListener(v -> startActivity(new Intent(components_Activities.this, components_acitivtes_mcqs.class)));
+
     }
 }

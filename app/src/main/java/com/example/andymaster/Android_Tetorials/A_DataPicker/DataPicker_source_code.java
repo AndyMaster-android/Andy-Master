@@ -22,5 +22,6 @@ public class DataPicker_source_code extends AppCompatActivity {
         DatePicker_viewpager_Adopter Adopter = new DatePicker_viewpager_Adopter(getSupportFragmentManager());
         viewPager.setAdapter(Adopter);
         tabLayout.setupWithViewPager(viewPager);
+
     }
 }

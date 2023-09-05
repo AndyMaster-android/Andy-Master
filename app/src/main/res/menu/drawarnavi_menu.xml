@@ -11,6 +11,9 @@
     <item android:id="@+id/progress"
         android:title="@string/progresss"
         android:icon="@drawable/baseline_trending_up_24"/>
+    <item android:id="@+id/Notification"
+        android:title="Notification"
+        android:icon="@drawable/baseline_notifications_24"/>
     <item android:id="@+id/rateing"
         android:title="@string/rate_us"
         android:icon="@drawable/baseline_star_rate_24"/>

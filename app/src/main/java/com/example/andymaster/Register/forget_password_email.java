@@ -33,6 +33,7 @@ public class forget_password_email extends AppCompatActivity {
 
             }
         });
+
     }
 
     public void Forget_btn(View view) {

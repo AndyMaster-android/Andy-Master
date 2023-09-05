@@ -43,6 +43,7 @@ public class varifiy_otp_forget_screen extends AppCompatActivity {
         pinFromUser = findViewById(R.id.PinView);
 
 
+
     }
 
 

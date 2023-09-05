@@ -37,5 +37,6 @@ public class Text_View extends AppCompatActivity {
         });
 fa_source_btn.setOnClickListener(v -> { startActivity(new Intent(Text_View.this , TextView_source_code.class));});
 fa_Gloassary_btn.setOnClickListener(v -> {startActivity(new Intent(Text_View.this , Gloassory_textView.class));});
+
     }
 }

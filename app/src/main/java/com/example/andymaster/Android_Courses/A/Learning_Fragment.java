@@ -44,6 +44,7 @@ public class Learning_Fragment extends Fragment {
         adopter = new Android_Coureses_Recyclerview_Adopter(getContext() , arrayList);
         Android_Course.setAdapter(adopter);
     }
+
     private void AndroidList() {
         arrayList.add(new Top_trending_Model_class(R.drawable.icon_bg_blue ,"Get Started"));
         arrayList.add(new Top_trending_Model_class(R.drawable.road_map ,"Road Map"));

@@ -36,5 +36,6 @@ public class RatingBar extends AppCompatActivity {
         fa_source_btn.setOnClickListener(v -> startActivity(new Intent(RatingBar.this, RatingBar_Source_code.class)));
         fa_Gloassary_btn.setOnClickListener(v -> {startActivity(new Intent(RatingBar.this , Radio_btn_Glossary.class));});
 
+
     }
     }

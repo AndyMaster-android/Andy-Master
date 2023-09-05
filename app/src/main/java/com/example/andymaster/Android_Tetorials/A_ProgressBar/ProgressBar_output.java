@@ -37,6 +37,7 @@ public class ProgressBar_output extends AppCompatActivity {
         fa_source_btn.setOnClickListener(v -> startActivity(new Intent(ProgressBar_output.this, Progress_source_code.class)));
         fa_Gloassary_btn.setOnClickListener(v -> {startActivity(new Intent(ProgressBar_output.this , ProgressBar_Gloassory.class));});
 
+
     }
     public void addListenerOnButton() {
 

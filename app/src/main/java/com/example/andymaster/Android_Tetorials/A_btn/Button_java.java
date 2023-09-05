@@ -63,6 +63,8 @@ public class Button_java extends Fragment {
         mCodeView.setText(java_code);
         mCodeView.cancelLongPress();
         mCodeView.cancelPendingInputEvents();
+        String code = String.valueOf(mCodeView.getText());
         return view;
+
     }
 }

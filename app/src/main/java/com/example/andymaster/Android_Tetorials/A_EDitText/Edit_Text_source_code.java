@@ -24,5 +24,6 @@ public class Edit_Text_source_code extends AppCompatActivity {
         EditText_source_code_viewpager_Adopter Adopter = new EditText_source_code_viewpager_Adopter(getSupportFragmentManager());
         viewPager.setAdapter(Adopter);
         tabLayout.setupWithViewPager(viewPager);
+
     }
 }

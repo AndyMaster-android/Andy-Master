@@ -25,4 +25,15 @@
     <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
         <item name="android:background">@android:color/white</item>
     </style>
+    <style name="MyToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorControlNormal">#FFFF</item>
+        <item name="titleTextColor">#FFFF</item>
+    </style>
+
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
 </resources>

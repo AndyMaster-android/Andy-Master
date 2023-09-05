@@ -12,5 +12,6 @@ public class Alert_Dialog_Gloassary extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alert_dialog_gloassary);
+
     }
 }

@@ -33,6 +33,7 @@ public class Check_Box extends AppCompatActivity {
         fa_Gloassary_btn.setOnClickListener(v -> {startActivity(new Intent(Check_Box.this , Glossary_Checkbox.class));});
 
         addListenerOnButtonClick();
+
     }
     public void addListenerOnButtonClick(){
         //Getting instance of CheckBoxes and Button from the activty_main.xml file

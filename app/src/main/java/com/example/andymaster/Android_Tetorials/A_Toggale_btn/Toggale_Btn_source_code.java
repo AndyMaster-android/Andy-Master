@@ -23,5 +23,6 @@ public class Toggale_Btn_source_code extends AppCompatActivity {
         Toggale_btn_viewpager_Adopter Adopter = new Toggale_btn_viewpager_Adopter(getSupportFragmentManager());
         viewPager.setAdapter(Adopter);
         tabLayout.setupWithViewPager(viewPager);
+
     }
 }

@@ -26,6 +26,7 @@ public class Switch_btn_output extends AppCompatActivity {
         fa_source_btn.setOnClickListener(v -> startActivity(new Intent(Switch_btn_output.this, Switch_source_code.class)));
         fa_Gloassary_btn.setOnClickListener(v -> {startActivity(new Intent(Switch_btn_output.this , Glossary_Switch.class));});
 
+
     }
 
     public void onSwitchclick(View view) {

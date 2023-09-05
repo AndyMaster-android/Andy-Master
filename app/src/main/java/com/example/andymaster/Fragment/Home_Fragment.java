@@ -23,8 +23,6 @@ public class Home_Fragment extends Fragment {
 
     }
 
-
-
     CardView Android_Card;
 
     @Override

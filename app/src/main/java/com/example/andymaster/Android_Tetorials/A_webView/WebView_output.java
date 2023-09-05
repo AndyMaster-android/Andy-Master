@@ -43,6 +43,7 @@ public class WebView_output extends AppCompatActivity {
             // onPageFinished and override Url loading.
             webView.setWebViewClient(new WebViewClient());
         });
+
     }
 
     @Override

@@ -27,5 +27,6 @@ private RelativeLayout App_Spacific_storage ,Database , Shared_preference , Shar
         Database.setOnClickListener(v -> startActivity(new Intent(Storage.this , DataBase.class)));
         Shared_storage.setOnClickListener(v -> startActivity(new Intent(Storage.this , Shared_storage.class)));
         Shared_preference.setOnClickListener(v -> startActivity(new Intent(Storage.this , Shared_preference.class)));
+
     }
 }

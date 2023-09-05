@@ -1,5 +1,6 @@
 package com.example.andymaster.Fragment.CumunitySection.Adopter;
 
+
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -10,15 +11,16 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.FragmentActivity;
+import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.andymaster.Fragment.CumunitySection.Activites.CommentActivity;
 import com.example.andymaster.Fragment.CumunitySection.Activites.FollowersActivity;
 import com.example.andymaster.Fragment.CumunitySection.Activites.PostDetailFragment;
+import com.example.andymaster.Fragment.UserProfile.User_Profile_;
 import com.example.andymaster.Modelclasses.Post;
 import com.example.andymaster.Modelclasses.Users;
 import com.example.andymaster.R;
-import com.example.andymaster.Fragment.UserProfile.User_Profile_;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -41,13 +43,20 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.Viewholder> {
         this.mContext = mContext;
         this.mPosts = mPosts;
         firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
+        setHasStableIds(true);
     }
 
+    public void updateData(List<Post> Posts) {
+        DiffUtil.DiffResult diffResult = DiffUtil.calculateDiff(new MyDiffCallback(mPosts, Posts));
+        mPosts.clear();
+        mPosts.addAll(mPosts);
+        diffResult.dispatchUpdatesTo(this);
+    }
     @NonNull
     @Override
     public Viewholder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(mContext).inflate(R.layout.post_item, parent, false);
-        return new Viewholder(view);
+        return new PostAdapter.Viewholder(view);
     }
 
     @Override
@@ -63,9 +72,9 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.Viewholder> {
                 Users user = dataSnapshot.getValue(Users.class);
 
                 if (user.getImageurl().equals("default")) {
-                    holder.imageProfile.setImageResource(R.mipmap.ic_launcher);
+                    holder.imageProfile.setImageResource(R.drawable.avatar);
                 } else {
-                    Picasso.get().load(user.getImageurl()).placeholder(R.mipmap.ic_launcher).into(holder.imageProfile);
+                    Picasso.get().load(user.getImageurl()).placeholder(R.drawable.avatar).into(holder.imageProfile);
                 }
                 holder.username.setText(user.getUsername());
                 holder.author.setText(user.getName());
@@ -201,8 +210,8 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.Viewholder> {
 
         public TextView username;
         public TextView noOfLikes;
-        public TextView author ,description;
-        public TextView noOfComments;
+        public TextView author;
+        public TextView noOfComments ,description;
 
 
         public Viewholder(@NonNull View itemView) {
@@ -292,6 +301,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.Viewholder> {
         });
     }
 
+
     private void addNotification(String postId, String publisherId) {
         HashMap<String, Object> map = new HashMap<>();
 
@@ -303,4 +313,33 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.Viewholder> {
         FirebaseDatabase.getInstance().getReference().child("Notifications").child(firebaseUser.getUid()).push().setValue(map);
     }
 
+    private class MyDiffCallback extends DiffUtil.Callback {
+        private List<Post> oldList;
+        private List<Post> newList;
+
+        public MyDiffCallback(List<Post> oldList, List<Post> newList) {
+            this.oldList = oldList;
+            this.newList = newList;
+        }
+
+        @Override
+        public int getOldListSize() {
+            return oldList.size();
+        }
+
+        @Override
+        public int getNewListSize() {
+            return newList.size();
+        }
+
+        @Override
+        public boolean areItemsTheSame(int oldItemPosition, int newItemPosition) {
+            return oldList.get(oldItemPosition).equals(newList.get(newItemPosition));
+        }
+
+        @Override
+        public boolean areContentsTheSame(int oldItemPosition, int newItemPosition) {
+            return oldList.get(oldItemPosition).equals(newList.get(newItemPosition));
+        }
+    }
 }

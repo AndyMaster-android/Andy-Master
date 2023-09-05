@@ -39,5 +39,7 @@ public class Get_Start_Ac extends AppCompatActivity {
             startActivity(i);
         });
 
+
+
     }
 }

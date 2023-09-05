@@ -21,5 +21,6 @@ public class Shared_storage extends AppCompatActivity {
         setContentView(R.layout.activity_shared_storage);
         textView = findViewById(R.id.QUIZ_btn);
         textView.setOnClickListener(v -> startActivity(new Intent(Shared_storage.this, Shared_Storage_mcqs.class)));
+
     }
 }

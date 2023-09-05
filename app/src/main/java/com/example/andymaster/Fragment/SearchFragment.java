@@ -1,6 +1,5 @@
 package com.example.andymaster.Fragment;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -16,7 +15,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 
-import com.example.andymaster.Fragment.CumunitySection.Activites.UserAdapter;
+import com.example.andymaster.Fragment.CumunitySection.Adopter.UserAdapter;
 import com.example.andymaster.Modelclasses.Users;
 import com.example.andymaster.R;
 import com.google.firebase.database.DataSnapshot;
@@ -36,7 +35,7 @@ public class SearchFragment extends Fragment {
     private UserAdapter userAdapter;
     EditText search_bar ;
 
-    @SuppressLint("MissingInflatedId")
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

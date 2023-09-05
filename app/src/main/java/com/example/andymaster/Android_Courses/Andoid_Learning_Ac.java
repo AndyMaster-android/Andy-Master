@@ -44,7 +44,6 @@ public class Andoid_Learning_Ac extends AppCompatActivity {
 
 
 
-
     }
     private void TAbLayout(){
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {

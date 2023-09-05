@@ -78,5 +78,6 @@ public class Result_Quiz extends AppCompatActivity {
                 finish();
             }
         });
+      //  return correctAnswers;
     }
 }

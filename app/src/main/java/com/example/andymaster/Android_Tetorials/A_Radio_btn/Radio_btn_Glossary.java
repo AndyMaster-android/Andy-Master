@@ -12,5 +12,6 @@ public class Radio_btn_Glossary extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_radio_btn_glossary);
+
     }
 }

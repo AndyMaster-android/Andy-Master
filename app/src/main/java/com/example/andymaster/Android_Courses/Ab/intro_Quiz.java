@@ -91,6 +91,8 @@ public class intro_Quiz extends AppCompatActivity {
             Keep_learning_btn.setOnClickListener(v12 -> dialog.dismiss());
             dialog.show();
         });
+
+
     }
 
     private void ListMCQS() {
@@ -192,7 +194,6 @@ public class intro_Quiz extends AppCompatActivity {
             // Display the next question
             displayQuestion();
         } else {
-
 
             // Quiz completed, show the final score
             Intent intent = new Intent(intro_Quiz.this, Result_Quiz.class);

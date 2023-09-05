@@ -12,6 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.andymaster.Android_Courses.Ab.intro_Android_Activity;
 import com.example.andymaster.Android_Courses.Ad.Android_studio;
 import com.example.andymaster.Android_Courses.Ab.Get_Start_Ac;
 import com.example.andymaster.Android_Courses.Ae.Component;
@@ -81,7 +82,7 @@ public class Android_Coureses_Recyclerview_Adopter extends RecyclerView.Adapter<
                     context.startActivity(new Intent(context , Road_Map.class));
                     break;
                 case 2:
-                    context.startActivity(new Intent(context, intro_Android.class));
+                    context.startActivity(new Intent(context, intro_Android_Activity.class));
                     break;
                 case 3:
                     context.startActivity(new Intent(context, Platform_Android.class));

@@ -30,5 +30,6 @@ public class Platform_Android extends AppCompatActivity {
 startActivity(new Intent(Platform_Android.this , cross_App.class));
             }
         });
+
     }
 }

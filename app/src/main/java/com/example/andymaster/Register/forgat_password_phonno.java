@@ -68,6 +68,7 @@ public class forgat_password_phonno extends AppCompatActivity {
         phoneNumberTextField.setAnimation(animation);
         countryCodePicker.setAnimation(animation);
         nextBtn.setAnimation(animation); */
+
     }
 
 

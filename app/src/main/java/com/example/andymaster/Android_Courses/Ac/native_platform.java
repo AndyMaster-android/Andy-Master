@@ -16,5 +16,6 @@ private TextView textView;
         setContentView(R.layout.activity_native_platform);
         textView = findViewById(R.id.Quiz_btn);
         textView.setOnClickListener(v -> startActivity(new Intent(native_platform.this , native_mcqs.class)));
+
     }
 }

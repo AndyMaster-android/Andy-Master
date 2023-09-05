@@ -21,5 +21,6 @@ private TextView textView;
         setContentView(R.layout.activity_broadcast_receiver);
         textView = findViewById(R.id.QUIZ_btn);
         textView.setOnClickListener(v -> startActivity(new Intent(Broadcast_receiver.this, Broadcast_receiver_mcqs.class)));
+
     }
 }

@@ -9,7 +9,13 @@
     <color name="white">#FFFFFFFF</color>
     <color name="lavender">#8692f7</color>
     <color name="black_overlay">#66000000</color>
+    <color name="grey">#E3E3E3</color>
+    <color name="green">#4CAF50</color>
+    <color name="greenDark">#28852C</color>
 
+    <color name="itemNameColor">#D1A42B</color>
+    <color name="itembgColor">#01294D</color>
+    <color name="appbgColor">#F2F2F2</color>
 
     <color name="colorCorrect">#00FF00</color> <!-- Green color for correct answer -->
     <color name="colorWrong">#FF0000</color>
@@ -38,8 +44,25 @@
     <color name="colorAccent">#c2bdbf</color>
     <color name="colorBlack">#000000</color>
     <color name="colorWhite">#ffffff</color>
-    <style name="CircularDeterminateProgressBar">
-        <item name="android:indeterminateOnly">false</item>
-        <item name="android:progressDrawable">@drawable/progress_style</item>
-    </style>
+    <color name="statusIndigo">#8B6990</color>
+    <color name="statusLightPink">#FF8A8C</color>
+    <color name="statusGreen">#54C265</color>
+    <color name="statusRed">#FF7B6B</color>
+    <color name="statusCyan">#26C4DC</color>
+    <color name="statusLightBlue">#57C9FF</color>
+    <color name="statusGray">#74676A</color>
+    <color name="statusBlueGrey">#7E90A3</color>
+    <color name="statusBlue">#5696FF</color>
+    <color name="statusDeepPurple">#6E257E</color>
+    <color name="statusLightGreen">#7ACBA5</color>
+    <color name="statusDarkBlueGrey">#243640</color>
+    <color name="statusLightIndigo">#8294CA</color>
+    <color name="statusPink">#A62C71</color>
+    <color name="statusGreenLime">#90A841</color>
+    <color name="statusOrange">#C1A03F</color>
+    <color name="statusDarkPink">#792138</color>
+    <color name="statusBrown">#AE8774</color>
+    <color name="statusYellow">#F0B330</color>
+    <color name="statusLime">#B6B327</color>
+    <color name="statusPurple">#C69FCC</color>
 </resources>

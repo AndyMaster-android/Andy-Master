@@ -22,7 +22,7 @@
         app:showAsAction="withText"
         />
         <item android:id="@+id/massage"
-            android:icon="@drawable/leaderboard"
+            android:icon="@drawable/ic_comment_white_24dp"
             android:title="Massage"
             app:showAsAction="withText"
             />

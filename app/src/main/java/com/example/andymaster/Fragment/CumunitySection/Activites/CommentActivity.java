@@ -85,7 +85,7 @@ public class CommentActivity extends AppCompatActivity {
 
         fUser = FirebaseAuth.getInstance().getCurrentUser();
 
-        getUserImage();
+
 
         post.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -99,6 +99,7 @@ public class CommentActivity extends AppCompatActivity {
         });
 
         getComment();
+
     }
 
     private void getComment() {

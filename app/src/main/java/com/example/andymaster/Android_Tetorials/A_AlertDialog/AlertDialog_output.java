@@ -28,6 +28,7 @@ public class AlertDialog_output extends AppCompatActivity {
         fa_Gloassary_btn.setOnClickListener(v -> {startActivity(new Intent(AlertDialog_output.this , Alert_Dialog_Gloassary.class));});
 
 
+
     }
 
     @Override

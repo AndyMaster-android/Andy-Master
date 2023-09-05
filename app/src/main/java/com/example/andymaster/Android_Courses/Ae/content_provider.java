@@ -21,5 +21,6 @@ public class content_provider extends AppCompatActivity {
         setContentView(R.layout.activity_content_provider);
         textView =findViewById(R.id.QUIZ_btn);
         textView.setOnClickListener(v -> startActivity(new Intent(content_provider.this , content_provider_mcqs.class)));
+
     }
     }

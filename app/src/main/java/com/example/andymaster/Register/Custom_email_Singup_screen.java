@@ -49,6 +49,7 @@ public class Custom_email_Singup_screen extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         back_button.setOnClickListener(v ->
                 finish());
+
     }
 
     public void signuphere(View view) {
@@ -87,9 +88,10 @@ public class Custom_email_Singup_screen extends AppCompatActivity {
 
                 HashMap<String, Object> map = new HashMap<>();
                 map.put("email", email);
-                map.put("name", "Default");
+                map.put("fullname", "Default");
                 map.put("username", username);
                 map.put("password", password);
+                map.put("token", "token");
                 map.put("id", mAuth.getCurrentUser().getUid());
                 map.put("bio", "");
                 map.put("imageurl", "default");

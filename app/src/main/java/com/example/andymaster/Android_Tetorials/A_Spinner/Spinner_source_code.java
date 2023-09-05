@@ -22,5 +22,6 @@ public class Spinner_source_code extends AppCompatActivity {
         switch_sourcecode_viewpager_adopter Adopter = new switch_sourcecode_viewpager_adopter(getSupportFragmentManager());
         viewPager.setAdapter(Adopter);
         tabLayout.setupWithViewPager(viewPager);
+
     }
 }

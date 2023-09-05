@@ -46,7 +46,5 @@ public class intro_Android extends AppCompatActivity {
         });
 
 
-
-
     }
 }

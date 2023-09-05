@@ -11,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.FragmentActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.andymaster.Fragment.CumunitySection.Activites.PostDetailFragment;
 import com.example.andymaster.Modelclasses.Post;
 import com.example.andymaster.R;
 import com.squareup.picasso.Picasso;
@@ -45,9 +46,9 @@ public class PhotoAdapter extends RecyclerView.Adapter<PhotoAdapter.ViewHolder> 
             public void onClick(View v) {
                 mContext.getSharedPreferences("PREFS", Context.MODE_PRIVATE).edit().putString("postid", post.getPostid()).apply();
                 Toast.makeText(mContext, "You clicked Post", Toast.LENGTH_SHORT).show();
-                /*
+
                 ((FragmentActivity)mContext).getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.fragment_container, new PostDetailFragment()).commit(); */
+                        .replace(R.id.fragment_container, new PostDetailFragment()).commit();
             }
         });
 

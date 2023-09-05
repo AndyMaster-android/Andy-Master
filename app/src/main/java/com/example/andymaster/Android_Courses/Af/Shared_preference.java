@@ -21,5 +21,6 @@ public class Shared_preference extends AppCompatActivity {
         setContentView(R.layout.activity_shared_preference);
         textView = findViewById(R.id.QUIZ_btn);
         textView.setOnClickListener(v -> startActivity(new Intent(Shared_preference.this, Shared_preference_mcqs.class)));
+
     }
 }

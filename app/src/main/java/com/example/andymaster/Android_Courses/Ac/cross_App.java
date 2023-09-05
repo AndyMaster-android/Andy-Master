@@ -21,5 +21,6 @@ public class cross_App extends AppCompatActivity {
         textView.setOnClickListener(v -> {
             startActivity(new Intent(cross_App.this , cross_app_quiz.class));
         });
+
     }
 }

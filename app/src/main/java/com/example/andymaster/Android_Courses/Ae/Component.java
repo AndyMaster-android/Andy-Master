@@ -32,5 +32,6 @@ public class Component extends AppCompatActivity {
             startActivity(new Intent(Component.this, Broadcast_receiver.class));
         });
         Broadcast_reciver.setOnClickListener(v -> startActivity(new Intent(Component.this , Broadcast_receiver.class)));
+
     }
 }

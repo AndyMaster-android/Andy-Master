@@ -22,5 +22,6 @@ public class App_Specific_storage extends AppCompatActivity {
         setContentView(R.layout.activity_app_specific_storage);
         textView = findViewById(R.id.QUIZ_btn);
         textView.setOnClickListener(v -> startActivity(new Intent(App_Specific_storage.this, App_specific_storgage_mcqs.class)));
+
     }
 }

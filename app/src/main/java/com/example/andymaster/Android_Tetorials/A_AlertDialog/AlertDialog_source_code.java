@@ -22,5 +22,6 @@ public class AlertDialog_source_code extends AppCompatActivity {
         checkbox_viewpager_Adopter Adopter = new checkbox_viewpager_Adopter(getSupportFragmentManager());
         viewPager.setAdapter(Adopter);
         tabLayout.setupWithViewPager(viewPager);
+
     }
 }

@@ -21,5 +21,6 @@ public class RatingBar_Source_code extends AppCompatActivity {
         SeekBar_viewpager_Adopter Adopter = new SeekBar_viewpager_Adopter(getSupportFragmentManager());
         viewPager.setAdapter(Adopter);
         tabLayout.setupWithViewPager(viewPager);
+
     }
 }

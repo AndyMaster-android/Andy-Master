@@ -32,6 +32,7 @@ public class Android_tet_parent_recyclerview_adopter extends RecyclerView.Adapte
     @Override
     public Android_tet_parent_recyclerview_adopter.MyHoder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(context).inflate(R.layout.recyclerview_design_tetorials , parent ,false);
+
         return new MyHoder(view);
     }
 
@@ -57,8 +58,8 @@ public class Android_tet_parent_recyclerview_adopter extends RecyclerView.Adapte
     }
 
     public class MyHoder extends RecyclerView.ViewHolder {
-         static TextView ParentItemTitle;
-         static RecyclerView ChildRecyclerView;
+          static TextView ParentItemTitle;
+          static RecyclerView ChildRecyclerView;
         public MyHoder(@NonNull View itemView) {
             super(itemView);
             ParentItemTitle = itemView.findViewById(R.id.parent_item_title);

@@ -71,6 +71,7 @@ public class Login_custom_email_screen extends AppCompatActivity {
 
         Auth = FirebaseAuth.getInstance();
 
+
     }
 
     public void Login(View view) {
@@ -97,7 +98,7 @@ public class Login_custom_email_screen extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             FirebaseUser user = Auth.getCurrentUser();
                             if (user != null) {
-                                DatabaseReference usersRef = FirebaseDatabase.getInstance().getReference("users").child(user.getUid());
+                                DatabaseReference usersRef = FirebaseDatabase.getInstance().getReference("Users").child(user.getUid());
 
                                 usersRef.addListenerForSingleValueEvent(new ValueEventListener() {
                                     @Override

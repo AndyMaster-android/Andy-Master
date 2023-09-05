@@ -21,5 +21,6 @@ public class DataBase extends AppCompatActivity {
         setContentView(R.layout.activity_data_base);
         textView = findViewById(R.id.QUIZ_btn);
         textView.setOnClickListener(v -> startActivity(new Intent(DataBase.this, Database_mcqs.class)));
+
     }
 }

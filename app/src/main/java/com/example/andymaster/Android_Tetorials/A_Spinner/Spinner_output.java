@@ -51,6 +51,7 @@ public class Spinner_output extends AppCompatActivity implements AdapterView.OnI
                     this,
                     android.R.layout.simple_spinner_item,courses);
             spin.setAdapter(ad);
+
         }
 
 
